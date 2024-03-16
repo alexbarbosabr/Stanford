@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		FACAF75D2B995CE50025EA4F /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAF75C2B995CE50025EA4F /* MemorizeApp.swift */; };
-		FACAF75F2B995CE50025EA4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAF75E2B995CE50025EA4F /* ContentView.swift */; };
+		FACAF75F2B995CE50025EA4F /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAF75E2B995CE50025EA4F /* EmojiMemoryGameView.swift */; };
 		FACAF7612B995CE60025EA4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACAF7602B995CE60025EA4F /* Assets.xcassets */; };
 		FACAF7642B995CE60025EA4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACAF7632B995CE60025EA4F /* Preview Assets.xcassets */; };
+		FACAF76B2B9FC8D70025EA4F /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAF76A2B9FC8D70025EA4F /* MemoryGame.swift */; };
+		FACAF76D2B9FCADE0025EA4F /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAF76C2B9FCADE0025EA4F /* EmojiMemoryGame.swift */; };
+		FACAF7712BA253850025EA4F /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAF7702BA253850025EA4F /* AspectVGrid.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FACAF7592B995CE50025EA4F /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACAF75C2B995CE50025EA4F /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
-		FACAF75E2B995CE50025EA4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FACAF75E2B995CE50025EA4F /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		FACAF7602B995CE60025EA4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACAF7632B995CE60025EA4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FACAF76A2B9FC8D70025EA4F /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		FACAF76C2B9FCADE0025EA4F /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		FACAF7702BA253850025EA4F /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +58,10 @@
 			isa = PBXGroup;
 			children = (
 				FACAF75C2B995CE50025EA4F /* MemorizeApp.swift */,
-				FACAF75E2B995CE50025EA4F /* ContentView.swift */,
+				FACAF75E2B995CE50025EA4F /* EmojiMemoryGameView.swift */,
+				FACAF7702BA253850025EA4F /* AspectVGrid.swift */,
+				FACAF76A2B9FC8D70025EA4F /* MemoryGame.swift */,
+				FACAF76C2B9FCADE0025EA4F /* EmojiMemoryGame.swift */,
 				FACAF7602B995CE60025EA4F /* Assets.xcassets */,
 				FACAF7622B995CE60025EA4F /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACAF75F2B995CE50025EA4F /* ContentView.swift in Sources */,
+				FACAF75F2B995CE50025EA4F /* EmojiMemoryGameView.swift in Sources */,
 				FACAF75D2B995CE50025EA4F /* MemorizeApp.swift in Sources */,
+				FACAF76B2B9FC8D70025EA4F /* MemoryGame.swift in Sources */,
+				FACAF7712BA253850025EA4F /* AspectVGrid.swift in Sources */,
+				FACAF76D2B9FCADE0025EA4F /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
